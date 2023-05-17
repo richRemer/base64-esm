@@ -1,0 +1,17 @@
+{
+  "name": "@welib/base64",
+  "version": "0.0.1",
+  "description": "functions for working with base64 encoding",
+  "type": "module",
+  "exports": {
+    "./basic": "./base64-basic.js",
+    "./uri": "./base64-uri.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^10.2.0"
+  }
+}
